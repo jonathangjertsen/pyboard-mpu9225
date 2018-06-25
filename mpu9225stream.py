@@ -7,7 +7,7 @@ import array
 from micropython import const
 
 # Set the full-scale range of the accelerometer in g's here. Must be 2, 4, 8, or 16
-FULL_SCALE_CHOICE = 4
+FULL_SCALE_CHOICE = 2
 
 # I2C address
 AX_ADDR = const(104)
